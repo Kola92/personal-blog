@@ -187,7 +187,7 @@ const Post: React.FC<{ post: Post }> = (props) => {
 
         {enableLoadComments && (
           <p className="display-comments">
-            <button onClick={loadComments}>Display Comments</button>
+            <button onClick={loadComments}>Leave A Comment</button>
           </p>
         )}
         <div id="disqus_thread" className={styles.disqus}></div>
